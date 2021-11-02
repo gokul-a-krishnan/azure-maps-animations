@@ -11,11 +11,12 @@
     "microsoft"
   ],
   "bugs": {
-    "url": "https://github.com/Azure-Samples/azure-maps-animations/issues"
+    "url": "https://github.com/gokul-a-krishnan/azure-maps-animations/pulls"
   },
-  "homepage": "https://github.com/Azure-Samples/azure-maps-animations#readme",
+  "homepage": "https://github.com/gokul-a-krishnan/azure-maps-animations#readme",
   "scripts": {
-    "build": "node ./build/build.js"
+    "build": "node ./build/build.js",
+    "prepublish": "npm run build"
   },
   "author": "Microsoft Corporation",
   "license": "MIT",
